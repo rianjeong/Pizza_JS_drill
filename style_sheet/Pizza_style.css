@@ -1,0 +1,152 @@
+.container {
+    opacity: .8
+
+}	
+body {
+	background-image: url('../pizza_images/Pizza_oven1.jpg'); 
+	background-size:cover; 
+	background-repeat: no-repeat; 
+	
+}
+
+#menuBG {
+	max-width:650px; 
+	margin:10px auto;
+}
+h1 {
+	font-family: "Copperplate Gothic Light";
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	font-stretch: extra-expanded; 
+	margin: 5px 0 10px 0; 
+	text-align: center; 
+	color: #ffffff;
+	text-shadow: 0 0 10px #fff,
+	0 0 20px #fff,
+	0 0 30px #fff,
+	0 0 40px #ff00de,
+	0 0 70px #ff00de,
+	0 0 80px #ff00de,
+	0 0 100px #ff00de,
+	0 0 150px #ff00de;
+	
+}
+
+
+#frmMenu {
+	margin: 0% auto;
+	max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+	border-radius: 25px;
+	
+}
+.menu {
+	flex: 1 150px;
+	min-width: 0; 
+	border:3px ridge #d9d9d9;
+	border-radius:25px;
+	background-color: #66c2ff;
+	Margin: 5px;
+	padding: 0, 0, 5px, 3px; 
+}
+
+.menu>h3 {
+	font-family:"arial", times new roman;
+	background-color: #a6a6a6;   
+	border-radius: 25px 25px 0 0;
+	text-align: center; 
+	margin: 0 auto;
+	border-bottom: 5px black; 
+	
+}
+
+.btn-group {
+	display: flex;  
+	max-width:400px;  
+	margin: inherit;  
+}
+
+.btn-secondary {
+	flex: 1 150px;
+	border:3px ridge #d9d9d9;
+	width: 150px; 
+	height: 35px; 
+	border-radius:25px;
+	background-color: #66c2ff;
+	Margin: auto;
+	padding: 0, 0, 5px, 3px; 
+	font: 20px black; 
+	font-weight: bold; 
+}
+
+#cart {
+	opacity: 0;
+	margin: 15px 0 0 40px;
+	max-width:550px;
+    display:inline-flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:stretch;
+	border:3px ridge #d9d9d9;
+	border-radius:25px;
+	background-color: #66c2ff;
+}
+#title1 {
+	flex: 1 250px;
+	width: 250px; 
+	height: 30px; 
+	background-color: #a6a6a6;   
+	border-radius: 25px 0 0 0; 
+
+}
+
+#title1>h3 {
+	margin: 3px 0 0 10px; 
+}
+
+#title2 {
+	flex: 1 250px;
+	width: 250px; 
+	height:30px; 
+	background-color: #a6a6a6;   
+	border-radius: 0 25px 0 0;
+}
+
+#title2>h3 {
+	margin: 3px 0 0 0; 
+}
+#showText1 {
+	font: 13px;
+	flex: 1 250px; 
+	width: 250px; 
+}
+
+#showText2 {
+	font: 13px; 
+	flex: 1 250px;
+	width: 250px; 
+}
+
+#totalPrice1 {
+	font: 13px;
+	flex: 1 250px; 
+	width: 250px; 
+}
+
+#totalPrice2 {
+	font: 13px;
+	flex: 1 250px; 
+	width: 250px; 
+	font-weight: bold;
+	padding-top: 20px; 
+
+}
+	
